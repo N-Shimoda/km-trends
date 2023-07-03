@@ -4,7 +4,6 @@
 
 ## 2021年度
 ### 答案
-[2021答案（Adobe）](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:1fd7b0e4-49bd-43b0-ad99-f0e7c6186c92)
 
 ### F2-1
 #### 設問１（数列上のアルゴリズム）

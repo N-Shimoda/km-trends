@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # km-trends
 
 過去問の傾向と対策

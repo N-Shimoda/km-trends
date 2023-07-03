@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # 微分積分
 
 ## 2022年度

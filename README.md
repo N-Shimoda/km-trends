@@ -1,6 +1,6 @@
 {% include head.html %}
 
-# km-trends
+# 知能情報学コース 過去問対策
 
 過去問の傾向と対策
 

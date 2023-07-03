@@ -18,3 +18,10 @@
 ## 2021年度
 [答案（Adobe）](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:1fd7b0e4-49bd-43b0-ad99-f0e7c6186c92)  
 [答案（Google Drive）](https://drive.google.com/drive/u/1/folders/1GTodTtMWhdM9Tvg_6EQLDmnLkgc7xUhE)
+
+### F2-1
+#### 設問１（数列上のアルゴリズム）
+数列に含まれるk番目に大きな値を取得するアルゴリズムに関する問題。ピボットを使った再帰的な実装がクイックソートに似ている。  
+**(2)の解き方がまだ分かっていない。**
+
+#### 設問２

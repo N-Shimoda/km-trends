@@ -4,6 +4,8 @@
 
 ## 2021年度
 ### 答案
+[リンク](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:601e9516-d2fb-433c-b7ae-d70bd150647b)  
+間違え多数につき現在修正中。
 
 ### F2-1
 #### 設問１（数列上のアルゴリズム）
@@ -13,8 +15,10 @@
 #### 設問２
 
 ## 2022年度
-難易度は低いが問題量が多い。初めて見る問題設定を時間内に的確に把握する必要がある。  
-[答案](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:601e9516-d2fb-433c-b7ae-d70bd150647b)
+難易度は低いが問題量が多い。初めて見る問題設定を時間内に的確に把握する必要がある。
+
+### 答案
+[リンク](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:601e9516-d2fb-433c-b7ae-d70bd150647b)
 
 ### F2-1（種々のアルゴリズム）
 設問１：計算量（ビッグオー記法）  

@@ -10,5 +10,5 @@
   + [微分積分](calculus.md)
   + [アルゴリズムとデータ構造](algorithm.md)
 - 専門科目：
-  + 統計学
+  + [統計学](statistics.md)
   + 情報理論

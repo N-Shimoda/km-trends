@@ -7,10 +7,10 @@
 ## 受験科目
 - 情報学基礎：
   + 線形代数
-  + [微分積分](calculus.md)
-  + [アルゴリズムとデータ構造](algorithm.md)
+  + [微分積分](calculus/index.md)
+  + [アルゴリズムとデータ構造](algorithm/index.md)
 - 専門科目：
-  + [統計学](statistics.md)
+  + [統計学](statistics/index.md)
   + 情報理論
 
 ## 参考書（編集中）

@@ -2,7 +2,10 @@
 
 # 統計学
 
-## 出題傾向
+## 答案
+- [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4e72c6ab-87d7-4f83-8bf9-673c1d9e6878)
+
+## 出題分野
 ### 2022年度
 設問１：確率変数の平均と分散  
 設問２：ポアソン分布の性質  

@@ -3,14 +3,14 @@
 # 統計学
 
 ## 答案
-- [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4e72c6ab-87d7-4f83-8bf9-673c1d9e6878)
+- [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:f7e744cd-4aed-4dfb-baa7-8555112eff73)
 
 ## 出題分野
 ### 2022年度
 設問１：確率変数の平均と分散  
 設問２：ポアソン分布の性質  
 設問３：最小二乗法による回帰分析  
-設問４：研究における検定
+設問４：仮説検定
 
 ### 2021年度
 設問１：仮設検定、検出力  

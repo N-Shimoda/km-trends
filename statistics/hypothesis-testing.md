@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # 仮説検定
 - 平均の検定（分散$\sigma^2$が既知）
   + 例題１(a)(b)

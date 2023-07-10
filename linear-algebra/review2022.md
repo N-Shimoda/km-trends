@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # 線形代数2022
 
 ## 設問１（LU分解）

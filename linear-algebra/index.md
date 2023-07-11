@@ -4,7 +4,7 @@
 
 ## 答案
 [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:cbc88a68-74de-4312-a9c9-f55f547c3861)（[review](review2022.md)）  
-2021年度（[review](review2021.md)）
+[2021年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:1c514797-adab-462c-b5e7-fe3dfb086cec)（[review](review2021.md)）
 
 ## 出題分野
 ### 2022年度
@@ -13,7 +13,7 @@
 
 ### 2021年度
 設問１：行列のn乗（2次正方行列）  
-設問２：実対称行列の性質と対角化
+設問２：実対称行列の性質と直行行列による対角化
 
 ### 202０年度
 設問１：3,4次正方行列の計算問題  

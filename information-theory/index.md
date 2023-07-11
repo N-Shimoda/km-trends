@@ -3,7 +3,7 @@
 # 情報理論
 
 ## 答案
-- 2022年度
+- [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:13472d5b-27ff-4668-9e97-22e7dbcac6c5)（[review](review2022.md)）：鹿島研と確認済み。(2)は状態数の最小性を示す必要なし。
 
 ## 出題分野
 ### 2022年度

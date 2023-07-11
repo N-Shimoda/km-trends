@@ -11,7 +11,7 @@
   + [アルゴリズムとデータ構造](algorithm/index.md)
 - 専門科目：
   + [統計学](statistics/index.md)
-  + 情報理論（作成中）
+  + [情報理論](information-theory/index.md)
 
 ## 参考書（編集中）
 ### 情報学基礎

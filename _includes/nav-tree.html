@@ -1,0 +1,25 @@
+{{/* from https://maku77.github.io/p/7o7ymst/ */}}
+
+<h3>メニュー</h3>
+{{- template "nav-tree-internal" (dict "section" .Site.Home "current" .) }}
+
+{{- define "nav-tree-internal" }}
+  {{- $section := .section }}{{/* 今回処理するセクション */}}
+  {{- $current := .current }}{{/* 現在表示中のページ */}}
+
+  <ul>
+    {{- /* セクション直下のセクションページをループ表示 */}}
+    {{- range $section.Sections }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if eq . $current }}★{{ end }}</a>
+      {{- if or (.IsAncestor $current) (eq . $current) }}
+        {{- /* 開いているページよりも上位のセクション（あるいは自分自身）であればさらに辿る */}}
+        {{- template "nav-tree-internal" (dict "section" . "current" $current) }}
+      {{- end }}
+    {{- end }}
+
+    {{- /* セクション直下の通常ページをループ表示 */}}
+    {{- range $section.RegularPages }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if eq . $current }}★{{ end }}</a>
+    {{- end }}
+  </ul>
+{{- end }}

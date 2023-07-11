@@ -29,3 +29,5 @@
 ### 参考サイト
 - [正定値・判定値行列の定義と性質３つ](https://mathlandscape.com/positive-definite-matrix/)
 - [行列の定値性](https://ja.wikipedia.org/wiki/行列の定値性)（Wikipedia）
+
+{{ partial "nav-tree" . }}

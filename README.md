@@ -1,4 +1,5 @@
 {% include head.html %}
+{% include nav-tree.html %}
 
 # 知能情報学コース 過去問対策
 

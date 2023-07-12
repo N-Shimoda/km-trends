@@ -4,7 +4,8 @@
 
 ## 答案
 - 2022年度
-- [2021年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:02765bf7-bc46-4644-b0b3-09aafe15f36b)
+- [2021年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:02765bf7-bc46-4644-b0b3-09aafe15f36b)（[review](review2021.md)）
+- 2020年度（[review](review2020.md)）
 
 ## 2021年度
 ### 設問１（1階導関数・条件付き極値問題）

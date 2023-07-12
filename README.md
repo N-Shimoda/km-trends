@@ -13,7 +13,7 @@
   + [統計学](statistics/index.md)
   + [情報理論](information-theory/index.md)
 
-## 参考書（編集中）
+## 参考書
 ### 情報学基礎
 - 線形代数
   + チャート式「大学教養 線形代数」

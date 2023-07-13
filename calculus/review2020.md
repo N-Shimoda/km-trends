@@ -6,7 +6,7 @@
 ### 条件付き極値問題の方針
 条件 $g(x,y)=0$ のもとで $f(x,y)$ の極値を求める場合：  
 1. $F(x,y,\lambda):=f(x,y)-\lambda g(x,y)$ とおく。
-2. ラグランジュの未定乗数法より、$f(x,y)$ が点 $(x,y)$ で極値を取るとすれば、その点において次が成り立つ。
+2. ラグランジュの未定乗数法より、$f(x,y)$ が点 $(x,y)$ で極値を取るとすれば、その点において次が成り立つ。  
 $$
 \frac{\partial F}{\partial x} = \frac{\partial F}{\partial y} = \frac{\partial F}{\partial \lambda} = 0
 $$

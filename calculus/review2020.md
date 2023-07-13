@@ -7,22 +7,22 @@
 条件 $g(x,y)=0$ のもとで $f(x,y)$ の極値を求める場合：  
 1. $F(x,y,\lambda):=f(x,y)-\lambda g(x,y)$ とおく。
 2. ラグランジュの未定乗数法より、$f(x,y)$ が点 $(x,y)$ で極値を取るとすれば、その点において次が成り立つ。
-
 $$
 \frac{\partial F}{\partial x} = \frac{\partial F}{\partial y} = \frac{\partial F}{\partial \lambda} = 0
 $$
-
 3. 上式を用いて、極値をとりうる点の候補 $(x,y)$ を求める。
 4. <u>各候補 $(x,y)$ が極値であるかを確認する。</u>
 
 Step 4 の示し方はさまざまであるが、ここで以下の定理が成り立つ。
 
-**定理**
+**最大値・最小値の定理（Extreme Value Theorem）**
 > $R^n$ の有界閉集合で定義された連続関数は最大値および最小値をもつ。
 
 したがって、$g(x,y)=0$ が有界閉集合である場合には、Step 3 で求めた点の中に必ず最大値・最小値が存在するため、Step 4をスキップすることができる？（*やや不安*）
 
-参考：関西大学の授業資料（[リンク](http://www2.itc.kansai-u.ac.jp/~afujioka/hit/c2/111122c2.pdf)）
+参考：
+- 関西大学の授業資料（[リンク](http://www2.itc.kansai-u.ac.jp/~afujioka/hit/c2/111122c2.pdf)）
+- 趣味の数学（[リンク](https://math-fun.net/20210324/12430/#google_vignette)）
 
 ### 関連問題
 熊本大学の教材（[リンク](http://msec.kumamoto-u.ac.jp/problem/pdf/calculus/2_8/ans/ex_c2_8_3_ans.pdf)）

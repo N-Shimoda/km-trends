@@ -34,7 +34,7 @@
 
 ## コメント欄（beta）
 <script src="https://utteranc.es/client.js"
-        repo="<username>/<repository>"
+        repo="N-Shimoda/km-trends"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"

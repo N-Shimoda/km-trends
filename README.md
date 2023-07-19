@@ -30,3 +30,4 @@
   + 東大統計学教室「統計学入門」
 - 情報理論
   + 中村篤祥ほか「基礎から学ぶ情報理論」
+  + 西田先生のHP「情報符号理論」（[リンク](https://sites.google.com/view/toyoakinishida-j/情報符号理論)）

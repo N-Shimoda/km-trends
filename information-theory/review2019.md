@@ -8,10 +8,12 @@
 
 ## (3) エントロピーレート
 定常情報源におけるエントロピーレートの性質
+
 $$
 \lim_{t\rightarrow\infty} \frac{1}{t} H(X_1,\dots X_t) = \lim_{t\rightarrow\infty} \frac{1}{t} H(X_t|,X_1\dots X_{t-1})
 $$
 から、単純マルコフ情報源においては以下が成立する。
+
 $$
 \lim_{t\rightarrow\infty} \frac{1}{t} H(X_1,\dots X_t) = H(X_2|X_1)
 $$

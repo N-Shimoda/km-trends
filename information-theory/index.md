@@ -43,3 +43,12 @@
 設問３：復号誤り率  
 設問４：補題の証明問題  
 設問５：復号誤り率に関する命題証明
+
+## コメント欄（beta）
+<script src="https://utteranc.es/client.js"
+        repo="N-Shimoda/km-trends"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

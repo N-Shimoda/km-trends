@@ -7,3 +7,12 @@
 - [2021年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:df7f679f-7360-49dd-af96-2f0f9b5b329f)（[review](review2021.md)）：F2-1 設問2 (2)の答えが正しいか分からない
 - 2020年度（[review](review2020.md)）
 - 2019年度（[review](review2019.md)）
+
+## コメント欄（beta）
+<script src="https://utteranc.es/client.js"
+        repo="N-Shimoda/km-trends"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

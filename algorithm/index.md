@@ -8,11 +8,4 @@
 - 2020年度（[review](review2020.md)）
 - 2019年度（[review](review2019.md)）
 
-## コメント欄（beta）
-<script src="https://utteranc.es/client.js"
-        repo="N-Shimoda/km-trends"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+{% include foot.html %}

@@ -22,5 +22,10 @@ $$
 
 参考：[某サイトの記事](https://academ-aid.com/info-theory/entropy-rate)／[Wikipedia](https://ja.wikipedia.org/wiki/エントロピーレート)
 
+## (4)(5) 条件付きエントロピー
+定義に従って忠実に。
+
 ## 配点例
 各10点（50点満点）
+
+{% include foot.html %}

@@ -6,7 +6,7 @@
 - [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:13472d5b-27ff-4668-9e97-22e7dbcac6c5)（[review](review2022.md)）：鹿島研と確認済み。(2)は状態数の最小性を示す必要なし。
 - 2021年度（[review](review2021.md)）
 - [2020年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4794e40e-9a40-4042-8850-c4a57ff5f549)（[review](review2020.md)）
-- 2019年度（[review](review2019.md)）
+- [2019年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:0acdabd5-f22e-4fdb-bbc3-0e57fb82a98a)（[review](review2019.md)）
 
 ## 出題分野
 ### 2022年度 [\**]

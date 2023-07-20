@@ -33,10 +33,4 @@
   + 西田先生のHP「情報符号理論」（[リンク](https://sites.google.com/view/toyoakinishida-j/情報符号理論)）
 
 ## コメント欄（beta）
-<script src="https://utteranc.es/client.js"
-        repo="N-Shimoda/km-trends"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+{% include foot.html %}

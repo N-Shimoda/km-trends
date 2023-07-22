@@ -1,6 +1,6 @@
 {% include head.html %}
 
-<h2>{{page.dir}}</h2>
+<a href="{{page.dir}}/index.md">科目トップへ</a>
 
 # 線形代数2018
 省略

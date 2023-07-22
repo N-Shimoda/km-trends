@@ -1,6 +1,6 @@
 {% include head.html %}
 
-{% page.tags %}
+<h2>{{page.dir}}</h2>
 
 # 線形代数2018
 省略

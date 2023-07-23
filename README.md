@@ -13,6 +13,9 @@
   + [統計学](statistics/index.md)
   + [情報理論](information-theory/index.md)
 
+## 正誤表
+[朱さん解答の正誤情報](corrigenda.md)
+
 ## 参考書
 ### 情報学基礎
 - 線形代数

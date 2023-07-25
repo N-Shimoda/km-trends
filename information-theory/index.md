@@ -7,6 +7,8 @@
 - 2021年度（[review](review2021.md)）
 - [2020年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4794e40e-9a40-4042-8850-c4a57ff5f549)（[review](review2020.md)）
 - [2019年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:0acdabd5-f22e-4fdb-bbc3-0e57fb82a98a)（[review](review2019.md)）
+- 2018年度（[review](review2018.md)）
+- [2017年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:db63505f-3586-4195-8cea-bd75b3da44f1)（[review](review2017.md)）
 
 ## 出題分野
 ### 2022年度 [\**]
@@ -43,5 +45,11 @@
 設問３：復号誤り率  
 設問４：補題の証明問題  
 設問５：復号誤り率に関する命題証明
+
+### 2017年度 [\*]
+<u>テーマ：連結された通信路</u>  
+設問１,２：条件付き確率  
+設問３：エントロピーの極限  
+設問４：相互情報量の極限
 
 {% include foot.html %}

@@ -18,6 +18,12 @@
 - 固有値分解
 - 特異値分解
 
+### プログラム
+解答の確認に使ったプログラム
+- [ans_check.py](codes/ans_check.py)
+- [LU_original.py](codes/LU_original.py)
+- [LU_scipy.py](codes/LU_scipy.py)：科学計算ライブラリを使ったLU分解。浮動小数点で計算するため結果にズレが生じる？
+
 ## 設問２（四元数の正方行列表現）
 四元数はコンピュータビジョンと関係がある[^3]。出題者が西野教授…？
 

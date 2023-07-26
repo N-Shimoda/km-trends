@@ -8,6 +8,7 @@
 - [2020年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:2beec146-d699-4f78-9164-66f4f3e8f883)（[review](review2020.md)）
 - [2019年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:5d831900-69e5-41f4-ae6f-db69fef756be)（[review](review2019.md)）
 - 2018年度（[review](review2018.md)）
+- 2017年度（[review](review2017.md)）
 
 ## 傾向と対策
 2013〜16年度ではフーリエ変換や複素解析、微分方程式などが出題されていた。また、2017年度までは数列やその極限がテーマとなった問題も多かった。  
@@ -18,7 +19,7 @@
 ## 出題分野
 ### 2022年度
 設問１：$n$ 階導関数の計算  
-設問２：合成微分  
+設問２：合成関数の微分  
 設問３：ガウス積分とその応用
 
 ### 2021年度

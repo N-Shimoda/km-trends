@@ -1,9 +1,7 @@
 {% include head.html %}
 
-# 統計学 メモ
-
-## 大数の法則と中心極限定理
-### 大数の法則（Law of Large Numbers）
+# 大数の法則と中心極限定理
+## 大数の法則（Law of Large Numbers）
 事象 $A$ が確率 $p$ で発生するとする。このとき、試行回数 $n$ を限りなく増やしていくと、観測された事象の頻度は $p$ に収束する。  
 異なる２つの定義が存在する。
 
@@ -17,7 +15,7 @@ $$
 P(\lim_{n\to\infty}\bar{X_n}=\mu)=1
 $$
 
-### 中心極限定理（Central Limmit Theorem）  
+## 中心極限定理（Central Limmit Theorem）  
 母集団によらず、和 $X_1+X_2+\dots+X_n$ の確率分布の形は、$n\rightarrow\infty$ のとき大略正規分布と見做せる。すなわち  
 $$
 \begin{align}
@@ -28,8 +26,4 @@ $$
 
 ただし、$\mu, \sigma^2$ は母集団の平均・分散
 
-## 分散の加法性
-確率変数 $X,Y$ に対して、一般に $V(X+Y) = V(X)+V(Y)+2\mathrm{Cov}(X,Y)$ が成り立つ。特に、$X,Y$ が独立の場合は $\mathrm{Cov}(X,Y) = 0$ より、  
-$$
-V(X \pm Y) = E(X)+E(Y)
-$$
+{% include foot.html %}

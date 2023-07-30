@@ -7,9 +7,7 @@
 $c_1f_1(x) + c_2f_2(x) + \cdots + c_nf_n(x) = 0$ がすべての $x$ について成り立つための必要条件が「 $c_1 = c_2 = \cdots c_n$ 」であるとする。このとき、$n$ 個の関数 $f_1(x), f_2(x), \cdots, f_n(x)$ は1次独立であるという。
 
 １次独立でない場合、１次従属であるという。したがって、$f_1(x), f_2(x), \cdots, f_n(x)$ が１次従属であるとき、以下が成り立つ。
-$$
-\exists c_1,c_2,\cdots,c_n.\ （\forall x.\ \sum_{i=1}^{n} c_if_i(x) = 0）\mathrm{かつ} c_i \mathrm{の中に0でないものがある}
-$$
+> $\exists c_1,c_2,\cdots,c_n.\ (\forall x.\ \sum_{i=1}^{n} c_if_i(x) = 0)$ かつ 「$c_0 = c_1 = \cdots = c_n = 0$」ではない
 
 参考：[金沢工業大学の講義ページ](https://w3e.kanazawa-it.ac.jp/math/category/bibun/bibunhouteisiki/henkan-tex.cgi?target=/math/category/bibun/bibunhouteisiki/kannsuu_no_itijidokuritu.html)
 

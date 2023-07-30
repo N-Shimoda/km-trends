@@ -9,6 +9,7 @@
 - 2019年度（[review](review2019.md)）
 - 2018年度（[review](review2018.md)）
 - 2017年度（[review](review2017.md)）
+- 2016年度（[review](review2016.md)）
 
 ## 出題分野
 ### 2022年度
@@ -28,5 +29,8 @@
 
 ### 2017年度
 クイックソート、マージソート
+
+### 2016年度
+二分探索木
 
 {% include foot.html %}

@@ -60,7 +60,7 @@
 
 ### 2011年度 [\*]
 <u>平行六面体の体積</u>  
-(1) 「体積 $=(\bm{a}\times\bm{b})\cdot\bm{c}$」の証明  
-(2) 「体積 $=\det (\bm{a}\ \bm{b}\ \bm{c}) $」の証明
+(1) 「体積 $=(\mathbf{a}\times\mathbf{b})\cdot\mathbf{c}$」の証明  
+(2) 「体積 $=\det (\mathbf{a}\ \mathbf{b}\ \mathbf{c}) $」の証明
 
 {% include foot.html %}

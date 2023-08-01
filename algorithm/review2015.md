@@ -82,5 +82,8 @@ $h_1(x), h_2(x),\cdots$ を順番に試していき、空いている番地（�
 - [高知工科大学院の講義ページ](http://www.info.kochi-tech.ac.jp/k1sakai/Lecture/ALG/2008/ALG2008-B.pdf)：二重ハッシュ法など
 
 ## 配点例
+設問１,３：各12点  
+設問２,４：各13点  
+（50点満点）
 
 {% include foot.html %}

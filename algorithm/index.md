@@ -10,6 +10,7 @@
 - 2018年度（[review](review2018.md)）
 - 2017年度（[review](review2017.md)）
 - 2016年度（[review](review2016.md)）
+- 2015年度（[review](review2015.md)）
 
 ## 出題分野
 ### 2022年度
@@ -32,5 +33,8 @@
 
 ### 2016年度
 二分探索木、B木
+
+### 2015年度
+ハッシュ法における線形走査法
 
 {% include foot.html %}

@@ -11,6 +11,7 @@
 - [2017年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:db63505f-3586-4195-8cea-bd75b3da44f1)（[review](review2017.md)）
 - 2016年度（[review](review2016.md)）
 - 2015年度（[review](review2015.md)）
+- 2014年度（[review](review2014.md)）
 
 ## 出題分野
 ### 2022年度 [\**]
@@ -64,5 +65,11 @@
 設問１：情報源のエントロピー  
 設問２：ある場合の復号誤り率  
 設問３：復号誤り率の最小化
+
+### 2014年度 [\***]
+<u>テーマ：情報源符号化法</u>  
+設問１：符号の計算  
+設問２：瞬時符号の証明  
+設問３：平均符号長の評価
 
 {% include foot.html %}

@@ -4,12 +4,12 @@
 
 ## 設問１ (a)(b)：ヒープ構造とヒープソート
 ### ヒープ構造について
+![image](https://github.com/N-Shimoda/km-trends/assets/63459531/08e6691e-c519-454f-aa23-c9e427feee22)
+
 - Heap：堆積する、積み重なる
 - **優先度付き待ち行列**（Priority Queue）を実現する
   + ある優先度に従って、優先度の高いものから順に取り出せるコレクション
   + 出てくる順番は入れた順番に **依存しない**
-
-![優先度付き待ち行列](https://ufcpp.net/media/ufcpp2000/algorithm/fig/col_heap0.png)
 
 ### ヒープの計算量
 要素数を $n$ とし、挿入・削除するデータを $x$ とおく。

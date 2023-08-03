@@ -84,11 +84,15 @@ $$
 時間計算量 $O(10n) = O(n)$、空間計算量 $O(99)=O(1)$
 
 ## 参考
+### 設問１
 - [優先度付き待ち行列（Priority Queue）](https://ufcpp.net/study/algorithm/col_heap.html#:~:text=優先度付き待ち行列（priority%20queue）とは、,最初に取り出されます%E3%80%82)
 - [バケットソート](https://ufcpp.net/study/algorithm/sort_bucket.html)
 - [ソートアルゴリズムまとめ](https://ufcpp.net/study/algorithm/sort.html#order)
 - [Qiita（ソートアルゴリズム12種類）](https://qiita.com/r-ngtm/items/f4fa55c77459f63a5228)
 
 ## 配点例
+設問１ (a)-(c)：各8点  
+設問２,３：各13点  
+（50点満点）
 
 {% include foot.html %}

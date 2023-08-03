@@ -2,6 +2,8 @@
 
 # アルゴリズムとデータ構造
 
+[主要なアルゴリズム](keynotes/index.md)
+
 ## 答案
 - [2022年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:601e9516-d2fb-433c-b7ae-d70bd150647b)（[review](review2022.md)）
 - [2021年度](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:df7f679f-7360-49dd-af96-2f0f9b5b329f)（[review](review2021.md)）：F2-1 設問2 (2)の答えが正しいか分からない
@@ -11,6 +13,7 @@
 - 2017年度（[review](review2017.md)）
 - 2016年度（[review](review2016.md)）
 - 2015年度（[review](review2015.md)）
+- 2014年度（[review](review2014.md)）
 
 ## 出題分野
 ### 2022年度
@@ -36,5 +39,10 @@
 
 ### 2015年度
 ハッシュ法における線形走査法
+
+### 2014年度
+設問１：ヒープ、ヒープソート  
+設問２：整数配列の探索アルゴリズム  
+設問３：アナグラムの検出アルゴリズム
 
 {% include foot.html %}

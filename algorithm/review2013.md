@@ -2,17 +2,94 @@
 
 # アルゴリズムとデータ構造2013
 
-文字列検索アルゴリズムである **KMP法**（Knuth-Morris-Pratt algorithm, 1977年発表）に関する問題。KMP法の問題は2019年度にも出題されている。
+文字列検索アルゴリズムである **KMP法**（Knuth-Morris-Pratt algorithm, 1977年）に関する問題。KMP法の問題は2019年度にも出題されている。
 
 ## 設問２（部分マッチテーブルの作成方法）
 ### 基本的な考え方
 照合文字列（pattern）を $m$ 文字、テキスト文字列（text）を $n$ 文字とする。また、`pattern[a:b]` で pattern の $a$ 文字目から $b$ 文字目までの部分文字列を表すとする。  
-マッチングにおいて、pattern の $j$ 文字目（$0 \leq j \leq m-1$）で不一致が発覚した際、基本的には照合位置を $+j$ だけシフトさせる必要がある。ただし、pattern の先頭 $l$ 文字の `pattern[0:l-1]` と、末尾から $l$ 文字の `pattern[j-l+1:j]` が一致する場合、シフト幅は $j-l$ 文字に短縮される。  
-よって、pattern = $X_l \cdot Y \cdot X_l$ となるような最長の部分文字列 $X_l$ の長さを求めれば、`shift[j]=j-l` と計算できる。
+マッチングにおいて、pattern の $j$ 文字目（$0 \leq j \leq m-1$）で不一致が発覚した際、基本的には照合位置を $+j$ だけシフトさせる必要がある。ただし、pattern の先頭 $l$ 文字の `pattern[0:l-1]` と、末尾から $l$ 文字の `pattern[j-l+1 :j]` が一致する場合、シフト幅は $j-l$ 文字に短縮される。  
+よって、pattern $= X_l\ Y\ X_l$ となるような最長の部分文字列 $X_l$ の長さを求めれば、`shift[j] = j-l` と計算できる。
 
-### 答案１（Wikipediaの方法？）
+### 解答１（$X_l$ を線形走査で探す）
+pattern と text のある部分を先頭から照合していく際、pattern の $j$ 文字目で初めて不一致が判明した場合のシフト幅を `shift[j] = j - T[j]` とおく。このとき、`T[j]` は pattern $= X_l\ Y\ X_l$ となるような最長の部分文字列 $X_l$ の長さであるので、次のような線形走査で調べることができる。
 
-### 答案２（trie木の利用）
+> 
+    algorithm get_T(j, pattern):
+
+        l_max = 0   (* 見つかっている X_l で最長のものの長さ *)
+
+        (* pattern の先頭から j-1 文字目までで最長の X_l を探す *)
+        for l = 0 to j-1:
+
+            if pattern[0:l] = pattern[j-l:j]:
+                l_max = l
+            else:
+                l_max = l_max   (* use previous value *)
+        
+        return l_max
+
+### 別解（木構造を使った解答）
+pattern を先頭から走査し、次の手順で１本の経路のみを持つ木を構築する。この過程で `T[j]` を計算していくことができる。
+
+1. `pattern[0]` の文字を木の根する。 
+また、`j=1` とする。
+1. `pattern[j]` の文字を先に作ったノードの子として追加する。
+1. このとき、ビット `s` が付与されたノードがあれば、そのうち深さが最も深いノードの深さ `l` を `T[j]` とする。そのようなノードがなければ、`T[j] = 0` とする。
+1. 次に、`s` が付与されたノードのうち最も深いノードの子と `pattern[j]` が一致するかを確認する。一致する場合、最も深いノードの子にもビット `s` を付与する。  
+1. 木構造にビット `s` が1つもない場合、木の根と `pattern[j]` の文字が同じであれば、木の根にビット `s` を付与する。
+1. `j=j+1` として Step 2 に戻る。これを `j=m-1` まで繰り返す。
+
+この方法では、各時点 `j` で `s` が付与されているノードが、`pattern` に含まれる最長の $X_l$ を表す。
+
+### 疑似コード
+#### メインコード
+> 
+    algorithm kmp_search:  
+
+        input:
+            an array of characters, S (検索対象のテキスト)
+            an array of characters, W (単語)
+        output:
+            an integer (W が見つかった際の S 内の位置。ただし先頭文字は 0番目とする)
+
+        define variables:
+            an integer, m ← 0 (S 内の現在照合中の開始位置)
+            an integer, i ← 0 (W 内の現在位置)
+            an array of integers, T (テーブル。他で事前に構築される)
+
+        while m + i is less than the length of S, do:
+            if W[i] = S[m + i], let i ← i + 1
+                if i equals the length of W, return m
+            otherwise, let m ← m + i - T[i], and if i > 0, let i ← T[i]
+
+        (W が S 内に見つからなかった場合)
+        return the length of S
+
+部分マッチテーブル `T[i]` の生成
+> 
+    algorithm kmp_table:
+        input:
+            an array of characters, W (解析すべき単語)
+            an array of integers, T (生成すべきテーブル)
+        output:
+            nothing (ただし、処理を行うことでテーブルの中身が書き込まれる)
+
+        define variables:
+            an integer, i ← 2 (T の中で現在計算している位置)
+            an integer, j ← 0 (現在見ているサブ文字列の次の文字のインデックス。0から始まる)
+
+        (先頭ふたつの値は固定。ただしアルゴリズムの実装によっては具体的値は異なる)
+        let T[0] ← -1, T[1] ← 0
+
+        while i is less than the length of W, do:
+            (第一の場合: サブ文字列は継続中)
+            if W[i - 1] = W[j], let T[i] ← j + 1, i ← i + 1, j ← j + 1
+
+            (第二の場合: サブ文字列は継続しないが、フォールバック可能)
+            otherwise, if j > 0, let j ← T[j]
+
+            (第三の場合: 対象をはみ出した。このとき j = 0)
+            otherwise, let T[i] ← 0, i ← i + 1
 
 ## 参考
 - [Wikipedia（KMP法）](https://ja.wikipedia.org/wiki/クヌース–モリス–プラット法)

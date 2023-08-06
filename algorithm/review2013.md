@@ -14,6 +14,7 @@
 pattern と text のある部分を先頭から照合していく際、pattern の $j$ 文字目で初めて不一致が判明した場合のシフト幅を `shift[j] = j - T[j]` とおく。このとき、`T[j]` は pattern $= X_l\ Y\ X_l$ となるような最長の部分文字列 $X_l$ の長さであるので、次のような線形走査で調べることができる。
 
 > 
+
     algorithm get_T(j, pattern):
 
         l_max = 0   (* 見つかっている X_l で最長のものの長さ *)
@@ -44,6 +45,7 @@ pattern を先頭から走査し、次の手順で１本の経路のみを持つ
 ### 疑似コード
 #### メインコード
 > 
+
     algorithm kmp_search:  
 
         input:
@@ -67,7 +69,9 @@ pattern を先頭から走査し、次の手順で１本の経路のみを持つ
 
 部分マッチテーブル `T[i]` の生成
 > 
+
     algorithm kmp_table:
+
         input:
             an array of characters, W (解析すべき単語)
             an array of integers, T (生成すべきテーブル)

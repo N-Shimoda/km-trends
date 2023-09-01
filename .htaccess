@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName [ 適当な文字列 ]
+AuthUserFile [ .htpasswdファイルの場所 ]
+require valid-user
